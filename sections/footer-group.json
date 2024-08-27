@@ -5,38 +5,40 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_CJU7DG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MUMIN_Logo_Final-07.png",
+            "image_width": 240,
+            "alignment": "",
+            "image_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         },
-        "footer-1": {
-          "type": "link_list",
+        "brand_information_dtkQTA": {
+          "type": "brand_information",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "show_social": true
           }
         }
       },
       "block_order": [
+        "image_CJU7DG",
         "footer-0",
-        "footer-1",
-        "footer-2"
+        "brand_information_dtkQTA"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-3",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
-        "show_social": true,
+        "enable_follow_on_shop": true,
+        "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
