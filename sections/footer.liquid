@@ -162,6 +162,12 @@
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
+
+                      {% unless block.settings.image_content == blank %}
+                        <div class="footer-block-image__content">
+                          <p>{{ block.settings.image_content }}</p>
+                        </div>
+                      {% endunless %}
                     </div>
                 {%- endcase -%}
               </div>
@@ -428,6 +434,12 @@
             }
           ],
           "default": "center"
+        },
+        {
+          "type": "textarea",
+          "id": "image_content",
+          "label": "Text below image",
+          "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
         }
       ]
     }
