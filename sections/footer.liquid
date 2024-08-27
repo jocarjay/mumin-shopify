@@ -88,18 +88,28 @@
                     </div>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
-                      <ul class="footer-block__details-content list-unstyled">
-                        {%- for link in block.settings.menu.links -%}
-                          <li>
-                            <a
-                              href="{{ link.url }}"
-                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
-                            >
-                              {{ link.title | escape }}
-                            </a>
-                          </li>
+                      {% assign link_columns = 3 %}
+                      {% assign link_per_column = block.settings.menu.links.size | divided_by: link_columns %}
+
+                      {% assign link_counter = 0 %}
+                      {% assign links = block.settings.menu.links %}
+                      <div class="footer-block__details-content">
+                        {%- for column in (1..link_columns) -%}
+                          <ul class="list-unstyled">
+                            {%- for child_link in (1..link_per_column) -%}
+                              <li>
+                                <a
+                                  href="{{ links[link_counter].url }}"
+                                  class="link link--text list-menu__item list-menu__item--link{% if links[link_counter].active %} list-menu__item--active{% endif %}"
+                                >
+                                  {{ links[link_counter].title | escape }}
+                                </a>
+                              </li>
+                              {% assign link_counter = link_counter | plus: 1 %}
+                            {% endfor %}
+                          </ul>
                         {%- endfor -%}
-                      </ul>
+                      </div>
                     {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
