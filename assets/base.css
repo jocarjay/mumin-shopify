@@ -5,7 +5,8 @@
   --alpha-badge-border: 0.1;
   --focused-base-outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   --focused-base-outline-offset: 0.3rem;
-  --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+  --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
 .product-card-wrapper .card,
@@ -2397,6 +2398,15 @@ input[type='checkbox'] {
   .header:not(.header--middle-left, .header--middle-center) .header__inline-menu {
     margin-top: 1.05rem;
   }
+
+  .header--center_menu {
+    grid-template-columns: auto auto auto;
+  }
+
+  .header--center_menu .header__inline-menu {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .header *[tabindex='-1']:focus {
@@ -2777,8 +2787,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  text-decoration: none;
 }
 
 details[open] > .header__menu-item {
@@ -2796,8 +2805,7 @@ details[open] > .header__menu-item .icon-caret {
 .header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
+  text-decoration: none;
 }
 
 .header__menu-item:hover .header__active-menu-item {

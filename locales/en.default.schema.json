@@ -1152,6 +1152,9 @@
         "enable_country_selector": {
           "label": "Enable country/region selector"
         },
+        "center_menu": {
+          "label": "Center Menu"
+        },
         "header__5": {
           "content": "Language selector"
         },
