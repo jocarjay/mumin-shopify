@@ -35,6 +35,15 @@
               style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
             {% endif %}
           >
+            {% if section.settings.background_image != blank %}
+              <div class="media-background-image">
+                {{
+                  section.settings.background_image
+                  | image_url: width: 1000
+                  | image_tag: fetchpriority: fetch_priority
+                }}
+              </div>
+            {% endif %}
             {%- if section.settings.image != blank -%}
               {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
                 {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
@@ -58,6 +67,18 @@
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
           </div>
+          {% if section.settings.overlay_image != blank %}
+            <div
+              class="overlay-image"
+              style="
+                --v-position: {{ section.settings.overlay_vertical }}%;
+                --h-position: {{ section.settings.overlay_horizontal }}%;
+                --image-width: {{ section.settings.overlay_image_width }}px;
+              "
+            >
+              {{ section.settings.overlay_image | image_url: width: 1000 | image_tag: fetchpriority: fetch_priority }}
+            </div>
+          {% endif %}
         </div>
         <div class="image-with-text__text-item grid__item">
           <div
@@ -105,6 +126,18 @@
                       {{ block.settings.button_label | escape }}
                     </a>
                   {%- endif -%}
+                {%- when 'featured_icon' -%}
+                  {%- if block.settings.featured_icon_show == true -%}
+                    <div class="product-features">
+                      {% for featured_icon in shop.metaobjects[block.settings.metaobject_type].values %}
+                        <div class="featured-icon">
+                          {% assign file_name = featured_icon.icon.value | remove: 'files/' %}
+                          <img src="{{ file_name | file_url }}" height="50" width="50">
+                          <span>{{ featured_icon.description.value }}</span>
+                        </div>
+                      {% endfor %}
+                    </div>
+                  {%- endif -%}
               {%- endcase -%}
             {%- endfor -%}
           </div>
@@ -126,6 +159,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
     },
     {
       "type": "select",
@@ -334,6 +372,45 @@
       "id": "fullwidth_sections",
       "default": false,
       "label": "Enable Fullwidth"
+    },
+    {
+      "type": "header",
+      "content": "Overlay Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "overlay_image",
+      "label": "Overlay Image"
+    },
+    {
+      "type": "range",
+      "id": "overlay_image_width",
+      "min": 100,
+      "max": 1000,
+      "step": 10,
+      "unit": "px",
+      "label": "Overlay Image",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "overlay_vertical",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "Vertical Position",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "overlay_horizontal",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "Horizontal Position",
+      "default": 50
     }
   ],
   "blocks": [
@@ -491,6 +568,25 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        }
+      ]
+    },
+    {
+      "type": "featured_icon",
+      "name": "Featured Icon",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "metaobject_type",
+          "label": "Metaobject Type",
+          "default": "smart_doorlock_features"
+        },
+        {
+          "type": "checkbox",
+          "id": "featured_icon_show",
+          "default": false,
+          "label": "Show Featured Icon"
         }
       ]
     }
