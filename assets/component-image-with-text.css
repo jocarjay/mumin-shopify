@@ -1,3 +1,25 @@
+.image-banner-wrapper {
+  position: relative;
+}
+
+.section-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.section-background-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .image-with-text .grid {
   margin-bottom: 0;
 }
@@ -328,6 +350,15 @@
   box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset)
     var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
   word-break: break-word;
+}
+
+.force-white-text .image-with-text__heading,
+.force-white-text .image-with-text__text > * {
+  color: #fff !important;
+}
+
+.image-with-text__text.override-font-size > * {
+  font-size: var(--text-size, 24px);
 }
 
 .media-background-image {
