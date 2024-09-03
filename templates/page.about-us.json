@@ -1,0 +1,426 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_GUWVbh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_aYFVxT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Smarter Security,<br\/>Smarter Living.<\/h1>",
+            "font_size": 50
+          }
+        }
+      },
+      "block_order": [
+        "heading_aYFVxT"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/About_Us_Banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_BwxUCE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YM6na7": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Mumin",
+            "heading_size": "h2"
+          }
+        },
+        "text_X494U7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Volutpat fermentum malesuada nunc ultrices ex massa. Quis curae malesuada phasellus ornare proin mauris dictum odio.<\/p><p>Aenean donec eleifend neque; ligula ligula augue. Adiam tincidunt malesuada ultrices felis pharetra. Auctor velit tortor dolor non potenti bibendum integer! Malesuada facilisi faucibus taciti pharetra libero natoque lectus tristique netus. <\/p><p>Magna dictumst libero at; posuere feugiat montes. In dictum dolor quam nullam vitae fusce habitant fringilla. Nascetur commodo varius tempor viverra facilisis ac. Etiam mus tristique aptent cubilia auctor rhoncus ultricies cubilia. Mollis etiam nulla platea ac neque lectus. <\/p><p><\/p><p>Lorem ipsum odor amet, consectetuer adipiscing elit. Volutpat fermentum malesuada nunc ultrices ex massa. Quis curae malesuada phasellus ornare proin mauris dictum odio.<\/p>",
+            "text_style": "body",
+            "force_text_size": false,
+            "text_size": 50
+          }
+        }
+      },
+      "block_order": [
+        "heading_YM6na7",
+        "text_X494U7"
+      ],
+      "settings": {
+        "white_font": false,
+        "image": "shopify:\/\/shop_images\/image_aboutus_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "fullwidth_sections": false,
+        "overlay_image_width": 100,
+        "overlay_vertical": 50,
+        "overlay_horizontal": 50
+      }
+    },
+    "multicolumn_EeKFFE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_giBeb9": {
+          "type": "column",
+          "settings": {
+            "list_counter": "shopify:\/\/shop_images\/01.svg",
+            "title": "<strong>Our Products<\/strong>",
+            "subtitle": "Smart Living",
+            "text": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Volutpat fermentum malesuada nunc ultrices ex massa. Quis curae malesuada phasellus ornare proin mauris dictum odio. Dapibus donec parturient felis fames ullamcorper convallis primis nibh.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jdMRyC": {
+          "type": "column",
+          "settings": {
+            "list_counter": "shopify:\/\/shop_images\/02.svg",
+            "title": "<strong>Our Products<\/strong>",
+            "subtitle": "Smart Living",
+            "text": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Volutpat fermentum malesuada nunc ultrices ex massa. Quis curae malesuada phasellus ornare proin mauris dictum odio. Dapibus donec parturient felis fames ullamcorper convallis primis nibh.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wyx8b4": {
+          "type": "column",
+          "settings": {
+            "list_counter": "shopify:\/\/shop_images\/03.svg",
+            "title": "<strong>Our Products<\/strong>",
+            "subtitle": "Smart Living",
+            "text": "<p>Lorem ipsum odor amet, consectetuer adipiscing elit. Volutpat fermentum malesuada nunc ultrices ex massa. Quis curae malesuada phasellus ornare proin mauris dictum odio. Dapibus donec parturient felis fames ullamcorper convallis primis nibh.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_giBeb9",
+        "column_jdMRyC",
+        "column_Wyx8b4"
+      ],
+      "settings": {
+        "column_list": true,
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 100,
+        "column_gap": 8,
+        "column_padding_top": 0,
+        "column_padding_bottom": 0
+      }
+    },
+    "multicolumn_m9wyNz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xBEGQk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lock-icon.svg",
+            "title": "<strong>Safe<\/strong>",
+            "subtitle": "",
+            "text": "<p>Aenean donec eleifend neque; ligula ligula augue<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nUKtQ9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/secure-icon.svg",
+            "title": "<strong>Secure<\/strong>",
+            "subtitle": "",
+            "text": "<p>Aenean donec eleifend neque; ligula ligula augue<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KdzWFT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/convenient-icon.svg",
+            "title": "<strong>Convenient<\/strong>",
+            "subtitle": "",
+            "text": "<p>Aenean donec eleifend neque; ligula ligula augue<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qkDKmw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gear-icon.svg",
+            "title": "<strong>Easy Installation<\/strong>",
+            "subtitle": "",
+            "text": "<p>Aenean donec eleifend neque; ligula ligula augue<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xBEGQk",
+        "column_nUKtQ9",
+        "column_KdzWFT",
+        "column_qkDKmw"
+      ],
+      "settings": {
+        "column_list": false,
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "white",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "column_gap": 40,
+        "column_padding_top": 40,
+        "column_padding_bottom": 40
+      }
+    },
+    "image_with_text_riDeeP": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_f3tYW6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SMART DOOR LOCK"
+          }
+        },
+        "heading_p98FQL": {
+          "type": "heading",
+          "settings": {
+            "heading": "MUMIN Smart Door Lock",
+            "heading_size": "h1"
+          }
+        },
+        "text_depcpK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlock your door in style with our versatile OPULENT smart door lock! Whether it's face recognition phone, entering a keyless code, using biometric recognition, or just a good old-fashioned key, our smart lock offers multiple ways to access your home securely. <\/p>",
+            "text_style": "body",
+            "force_text_size": false,
+            "text_size": 50
+          }
+        },
+        "featured_icon_LTcgQH": {
+          "type": "featured_icon",
+          "settings": {
+            "metaobject_type": "smart_doorlock_features",
+            "featured_icon_show": true
+          }
+        },
+        "button_RDyWqa": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE MORE",
+            "button_link": "#",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_f3tYW6",
+        "heading_p98FQL",
+        "text_depcpK",
+        "featured_icon_LTcgQH",
+        "button_RDyWqa"
+      ],
+      "settings": {
+        "white_font": false,
+        "image": "shopify:\/\/shop_images\/section-image-2.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "fullwidth_sections": true,
+        "overlay_image": "shopify:\/\/shop_images\/overlay-image.png",
+        "overlay_image_width": 200,
+        "overlay_vertical": 80,
+        "overlay_horizontal": 70
+      }
+    },
+    "image_with_text_7Ggeae": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_FDpVr4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SMART DOORBELL"
+          }
+        },
+        "heading_P6cmtK": {
+          "type": "heading",
+          "settings": {
+            "heading": "MUMIN Smart Doorbell",
+            "heading_size": "h1"
+          }
+        },
+        "text_kEm8kz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlock your door in style with our versatile OPULENT smart door lock! Whether it's face <br\/>recognition phone, entering a keyless code, using biometric recognition, or just a good <br\/>old-fashioned key, our smart lock offers multiple ways to access your home securely. <\/p>",
+            "text_style": "body",
+            "force_text_size": false,
+            "text_size": 50
+          }
+        },
+        "button_Xhd6NV": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE MORE",
+            "button_link": "#",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FDpVr4",
+        "heading_P6cmtK",
+        "text_kEm8kz",
+        "button_Xhd6NV"
+      ],
+      "settings": {
+        "white_font": false,
+        "image": "shopify:\/\/shop_images\/section-image-3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "fullwidth_sections": true,
+        "overlay_image_width": 100,
+        "overlay_vertical": 0,
+        "overlay_horizontal": 0
+      }
+    },
+    "image_with_text_T7dAJK": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_xtJgQe": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SMART SWITCH"
+          }
+        },
+        "heading_wfqpDi": {
+          "type": "heading",
+          "settings": {
+            "heading": "MUMIN Smart Switch",
+            "heading_size": "h1"
+          }
+        },
+        "text_hyUDRQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlock your door in style with our versatile OPULENT smart door lock! Whether it's face recognition phone, entering a keyless code, using biometric recognition, or just a good old-fashioned key, our smart lock offers multiple ways to access your home securely. <\/p>",
+            "text_style": "body",
+            "force_text_size": false,
+            "text_size": 50
+          }
+        },
+        "button_XieWNV": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE MORE",
+            "button_link": "#",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xtJgQe",
+        "heading_wfqpDi",
+        "text_hyUDRQ",
+        "button_XieWNV"
+      ],
+      "settings": {
+        "white_font": false,
+        "image": "shopify:\/\/shop_images\/Group_19.png",
+        "background_image": "shopify:\/\/shop_images\/section-bg.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "fullwidth_sections": true,
+        "overlay_image_width": 100,
+        "overlay_vertical": 0,
+        "overlay_horizontal": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_GUWVbh",
+    "image_with_text_BwxUCE",
+    "multicolumn_EeKFFE",
+    "multicolumn_m9wyNz",
+    "image_with_text_riDeeP",
+    "image_with_text_7Ggeae",
+    "image_with_text_T7dAJK"
+  ]
+}
