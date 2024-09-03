@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "<h1>A smarter way to <br\/>live a smarter life<\/h1>",
-            "font_size": 74
+            "font_size": 60
           }
         },
         "text": {
@@ -15,7 +15,7 @@
           "settings": {
             "text": "<p>Convert your smart less home appliances to a smart one.<\/p>",
             "text_style": "body",
-            "font_size": 24
+            "font_size": 20
           }
         },
         "icon_overlay_dRUL9p": {
@@ -44,177 +44,299 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "image_with_text_riDeeP": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "subheading_f3tYW6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SMART DOOR LOCK"
+          }
+        },
+        "heading_p98FQL": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "MUMIN Smart Door Lock",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "text_depcpK": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Unlock your door in style with our versatile OPULENT smart door lock! Whether it's face recognition phone, entering a keyless code, using biometric recognition, or just a good old-fashioned key, our smart lock offers multiple ways to access your home securely. <\/p>",
+            "text_style": "body",
+            "force_text_size": false,
+            "text_size": 50
+          }
+        },
+        "featured_icon_LTcgQH": {
+          "type": "featured_icon",
+          "settings": {
+            "metaobject_type": "smart_doorlock_features",
+            "featured_icon_show": true
+          }
+        },
+        "button_RDyWqa": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE MORE",
+            "button_link": "#",
+            "button_style_secondary": true
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "subheading_f3tYW6",
+        "heading_p98FQL",
+        "text_depcpK",
+        "featured_icon_LTcgQH",
+        "button_RDyWqa"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "white_font": false,
+        "image": "shopify:\/\/shop_images\/section-image-2.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 0,
+        "fullwidth_sections": true,
+        "overlay_image": "shopify:\/\/shop_images\/overlay-image.png",
+        "overlay_image_width": 200,
+        "overlay_vertical": 80,
+        "overlay_horizontal": 70
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
+    "image_with_text_7Ggeae": {
+      "type": "image-with-text",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "subheading_FDpVr4": {
+          "type": "subheading",
           "settings": {
-            "collection": ""
+            "subheading": "SMART DOORBELL"
           }
         },
-        "product": {
-          "type": "product",
+        "heading_P6cmtK": {
+          "type": "heading",
           "settings": {
-            "product": "",
-            "second_image": false
+            "heading": "MUMIN Smart Doorbell",
+            "heading_size": "h1"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "text_kEm8kz": {
+          "type": "text",
           "settings": {
-            "collection": ""
+            "text": "<p>Unlock your door in style with our versatile OPULENT smart door lock! Whether it's face <br\/>recognition phone, entering a keyless code, using biometric recognition, or just a good <br\/>old-fashioned key, our smart lock offers multiple ways to access your home securely. <\/p>",
+            "text_style": "body",
+            "force_text_size": false,
+            "text_size": 50
+          }
+        },
+        "button_Xhd6NV": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE MORE",
+            "button_link": "#",
+            "button_style_secondary": true
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "subheading_FDpVr4",
+        "heading_P6cmtK",
+        "text_kEm8kz",
+        "button_Xhd6NV"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "white_font": false,
+        "image": "shopify:\/\/shop_images\/section-image-3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "fullwidth_sections": true,
+        "overlay_image_width": 100,
+        "overlay_vertical": 0,
+        "overlay_horizontal": 0
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
+    "image_with_text_T7dAJK": {
+      "type": "image-with-text",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "subheading_xtJgQe": {
+          "type": "subheading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "subheading": "SMART SWITCH"
           }
         },
-        "column2": {
-          "type": "column",
+        "heading_wfqpDi": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "MUMIN Smart Switch",
+            "heading_size": "h1"
           }
         },
-        "column3": {
-          "type": "column",
+        "text_hyUDRQ": {
+          "type": "text",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Unlock your door in style with our versatile OPULENT smart door lock! Whether it's face recognition phone, entering a keyless code, using biometric recognition, or just a good old-fashioned key, our smart lock offers multiple ways to access your home securely. <\/p>",
+            "text_style": "body",
+            "force_text_size": false,
+            "text_size": 50
+          }
+        },
+        "button_XieWNV": {
+          "type": "button",
+          "settings": {
+            "button_label": "SEE MORE",
+            "button_link": "#",
+            "button_style_secondary": true
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "subheading_xtJgQe",
+        "heading_wfqpDi",
+        "text_hyUDRQ",
+        "button_XieWNV"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "white_font": false,
+        "image": "shopify:\/\/shop_images\/Group_19.png",
+        "background_image": "shopify:\/\/shop_images\/section-bg.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "fullwidth_sections": true,
+        "overlay_image_width": 100,
+        "overlay_vertical": 0,
+        "overlay_horizontal": 0
+      }
+    },
+    "image_with_text_TXiTVC": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_mEijwC": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><strong>Control your Smart<br\/>Home anywhere you go<br\/>with TUYA APP<\/strong><\/h1>",
+            "text_style": "body",
+            "force_text_size": true,
+            "text_size": 41
+          }
+        }
+      },
+      "block_order": [
+        "text_mEijwC"
+      ],
+      "settings": {
+        "section_background_image": "shopify:\/\/shop_images\/section-bg.png",
+        "white_font": true,
+        "image": "shopify:\/\/shop_images\/Group_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "fullwidth_sections": true,
+        "overlay_image_width": 100,
+        "overlay_vertical": 50,
+        "overlay_horizontal": 50
+      }
+    },
+    "image_with_text_xdKaad": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nFnRxT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Start making your home smarter than ever.<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_GzAzMW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Send us a message today to inquire.<\/p>",
+            "text_style": "body",
+            "force_text_size": false,
+            "text_size": 50
+          }
+        },
+        "button_Vp4zhV": {
+          "type": "button",
+          "settings": {
+            "button_label": "INQUIRE NOW",
+            "button_link": "#",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_nFnRxT",
+        "text_GzAzMW",
+        "button_Vp4zhV"
+      ],
+      "settings": {
+        "section_background_image": "shopify:\/\/shop_images\/Group_3_1.jpg",
+        "white_font": false,
+        "image": "shopify:\/\/shop_images\/Group_3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "fullwidth_sections": true,
+        "overlay_image_width": 100,
+        "overlay_vertical": 50,
+        "overlay_horizontal": 50
       }
     }
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "image_with_text_riDeeP",
+    "image_with_text_7Ggeae",
+    "image_with_text_T7dAJK",
+    "image_with_text_TXiTVC",
+    "image_with_text_xdKaad"
   ]
 }
