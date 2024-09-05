@@ -17,10 +17,17 @@
             "heading": "<h1>Smarter Security,<br\/>Smarter Living.<\/h1>",
             "font_size": 50
           }
+        },
+        "icon_overlay_gKWWtU": {
+          "type": "icon_overlay",
+          "settings": {
+            "icon_overlay_image": "shopify:\/\/shop_images\/MUMIN_Logo_Final-08.png"
+          }
         }
       },
       "block_order": [
-        "heading_aYFVxT"
+        "heading_aYFVxT",
+        "icon_overlay_gKWWtU"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/About_Us_Banner.png",
@@ -33,7 +40,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "image_with_text_BwxUCE": {
