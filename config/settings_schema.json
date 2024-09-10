@@ -1465,5 +1465,30 @@
         "default": "scheme-1"
       }
     ]
+  },
+  {
+    "name": "Contact Information",
+    "settings": [
+      {
+        "type": "text",
+        "id": "contact_telephone",
+        "label": "Telephone Number"
+      },
+      {
+        "type": "text",
+        "id": "contact_address",
+        "label": "Address"
+      },
+      {
+        "type": "text",
+        "id": "contact_email",
+        "label": "Email Address"
+      },
+      {
+        "type": "text",
+        "id": "contact_website",
+        "label": "Website"
+      }
+    ]
   }
 ]

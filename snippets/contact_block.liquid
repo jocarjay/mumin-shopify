@@ -1,0 +1,51 @@
+<div
+  class="contact-blocks"
+  style="
+    --margin-top: {{ block.margin_top }}rem;
+    --font-size: {{ block.font_size }}px;
+    --font-color: {{ block.font_color }};
+  "
+>
+  {% if settings.social_facebook_link != blank %}
+    <div class="contact-block--fb">
+      <a href="{{ settings.social_facebook_link }}">
+        {% render 'icon-fb' %}
+        <span>Mumin Innovation</span>
+      </a>
+    </div>
+  {% endif %}
+  {% if settings.contact_telephone != blank %}
+    <div class="contact-block--phone">
+      <a href="tel:{{ settings.contact_telephone }}">
+        {% render 'icon-telephone' %}
+        <span>{{ settings.contact_telephone }}</span>
+      </a>
+    </div>
+  {% endif %}
+  {% if settings.contact_address != blank %}
+    <div class="contact-block--address">
+      <div>
+        {% render 'icon-pin' %}
+        <span>{{ settings.contact_address }}</span>
+      </div>
+    </div>
+  {% endif %}
+  {% if settings.contact_email != blank %}
+    <div class="contact-block--email">
+      <a href="mailto:{{ settings.contact_email }}">
+        {% render 'icon-envelope' %}
+        <span>{{ settings.contact_email }}</span>
+      </a>
+    </div>
+  {% endif %}
+  {% if settings.contact_website != blank %}
+    <div class="contact-block--website">
+      <a href="https://{{- settings.contact_website -}}">
+        {% render 'icon-globe' %}
+        <span>
+          {{- settings.contact_website -}}
+        </span>
+      </a>
+    </div>
+  {% endif %}
+</div>
