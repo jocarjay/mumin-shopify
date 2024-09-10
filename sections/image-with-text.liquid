@@ -118,7 +118,13 @@
                     {{ block.settings.caption | escape }}
                   </p>
                 {%- when 'text' -%}
-                  <div class="image-with-text__text rte {{ block.settings.text_style }} {% if block.settings.force_text_size == true %}override-font-size{% endif %}" {{ block.shopify_attributes }} {% if block.settings.force_text_size == true %} style="--text-size: {{  block.settings.text_size }}px"{% endif %}>
+                  <div
+                    class="image-with-text__text rte {{ block.settings.text_style }} {% if block.settings.force_text_size == true %}override-font-size{% endif %}"
+                    {{ block.shopify_attributes }}
+                    {% if block.settings.force_text_size == true %}
+                      style="--text-size: {{  block.settings.text_size }}px"
+                    {% endif %}
+                  >
                     {{ block.settings.text }}
                   </div>
                 {%- when 'button' -%}
@@ -147,6 +153,8 @@
                       {% endfor %}
                     </div>
                   {%- endif -%}
+                {%- when 'contact_block' -%}
+                  {% render 'contact_block' with block: block.settings %}
               {%- endcase -%}
             {%- endfor -%}
           </div>
@@ -623,6 +631,39 @@
           "id": "featured_icon_show",
           "default": false,
           "label": "Show Featured Icon"
+        }
+      ]
+    },
+    {
+      "type": "contact_block",
+      "name": "Contact Block",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "margin_top",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "unit": "rem",
+          "label": "Margin Top",
+          "default": 2
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "label": "Font Size",
+          "default": 16
+        },
+        {
+          "type": "color",
+          "id": "font_color",
+          "label": "Override default font color",
+          "default": "#787878"
         }
       ]
     }
