@@ -8,7 +8,7 @@
 >
   {% if settings.social_facebook_link != blank %}
     <div class="contact-block--fb">
-      <a href="{{ settings.social_facebook_link }}">
+      <a href="{{ settings.social_facebook_link }}" target="_blank">
         {% render 'icon-fb' %}
         <span>Mumin Innovation</span>
       </a>
@@ -40,7 +40,7 @@
   {% endif %}
   {% if settings.contact_website != blank %}
     <div class="contact-block--website">
-      <a href="https://{{- settings.contact_website -}}">
+      <a href="https://{{- settings.contact_website -}}" target="_blank">
         {% render 'icon-globe' %}
         <span>
           {{- settings.contact_website -}}
